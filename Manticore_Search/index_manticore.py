@@ -25,7 +25,7 @@ with ApiClient(config) as client:
 
     # 1. Define the table schema based on your CSV columns
     # All columns are 'text' type to be fully searchable.
-    table_schema = [
+    table_schema = [ #add column names of your CSV file
          "id text", "name text",
         "address text", "city text", "state text",
         "country text", "postalCode text"
