@@ -8,6 +8,9 @@ Step-2: Do the indexing and store it. Run index_elastic.py. index_elastic.py: co
 
 Step-3: Run the search in streamlit app. streamlit run search_elastic.py. search_elastic.py: contains code to connect to INDEX_NAME on localhost and runs a streamlit app to perform search.
 
+or can run search_elastic_with_fuziness.py to use search with fuziness (spelling mistake/missing spealling also can be searched). 
+
+Adjust FUZZINESS = 2 as per need
 
 
 Usefull docker commands: 
